@@ -1,6 +1,6 @@
 # 智云文博
 ### —— 基于3D点云大模型的数字文物交互系统
-### An Interactive Digital Artifacts Guiding System based on 3D Point Cloud Large Models
+### A Digital Cultural Relic Interaction System Based on 3D Point Cloud Large Language Model
 
 ![挑战杯](https://img.shields.io/badge/挑战杯-人工智能+应用赛-red)
 ![语言](https://img.shields.io/badge/语言-Python-blue)
@@ -17,7 +17,7 @@ This project, "Zhi-Yun-Wen-Bo," addresses a key pain point in current digital mu
 
 Built upon the state-of-the-art **MiniGPT-3D** framework, we developed a solution by constructing a high-quality, domain-specific datasetdestruction for Chinese cultural artifacts and fine-tuning the model accordingly. The result is an intelligent system that can truly "understand" 3D artifacts and converse with users in natural language.
 
-## 效果演示 (Demo)
+## 💬 效果演示 (Demo)
 
 ![系统演示GIF](assets/demo.png)
 
