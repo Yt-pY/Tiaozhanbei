@@ -116,7 +116,7 @@ def create_demo():
     with gr.Blocks(title="数字文物Demo") as demo:
         gr.Markdown(title)
         gr.Markdown(description_1)
-        gr.Markdown("""[[项目主页](https://tangyuan96.github.io/minigpt_3d_project_page/)]   [[论文](https://arxiv.org/pdf/2405.01413)]   [[代码](https://github.com/TangYuan96/MiniGPT-3D)]""")
+        gr.Markdown("""[[项目主页](https://github.com/Yt-pY/Tiaozhanbei)]""")
         gr.Markdown(description)
 
         with gr.Row():
