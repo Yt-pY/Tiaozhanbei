@@ -24,7 +24,7 @@ Built upon the state-of-the-art **MiniGPT-3D** framework, we developed a solutio
 
 ## 🚀 环境部署 (Deployment)
 
-请遵循以下步骤在本地部署本项目。
+请按照以下步骤在本地部署本项目。
 
 ### 1. 克隆代码库 (Clone the Repository)
 
@@ -40,6 +40,7 @@ cd Tiaozhanbei
 ```bash
 conda env create -f environment.yml
 conda activate tiaozhanbei
+pip install gradio
 bash env_install.sh
 ```
 
@@ -50,14 +51,14 @@ bash env_install.sh
 
 1. 下载必要的 [模型权重](https://huggingface.co/YuanTang96/MiniGPT-3D/tree/main).
 2. 将 `params_weight` 文件夹放入 `Tiaozhanbei` 文件夹下
-3. 在 Google drive 上下载经过微调后的模型权重
+3. 在 Google drive 上下载经过数字文物微调后的 [模型权重 checkpoint_2.pth](https://drive.google.com/file/d/1x9YQsuHkFltUzim5UIWH_4x6hvJYRQ9P/view?usp=sharing)，放置在 `Tiaozhanbei/output/test/stage_3_big-cnew` 路径下
 
 
 最终项目结构如下
 ```
 Tiaozhanbei/
 ├── output/test/stage_3_big-cnew
-│   └── checkpoint_2.pth  <-- 放置于此
+│   └── checkpoint_2.pth
 ├── params_weight
 │   └── ...
 └── ...
